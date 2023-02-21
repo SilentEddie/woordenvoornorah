@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="arrayFunctions.js"></script>
+  <script src="talk.js"></script>
+  <script src="script.js" defer></script>
+
+  <title>Woorden Voor Norah</title>
+</head>
+
+<body>
+  <div id="main-container">
+    <div id="game-board-border"></div>
+    <div id="game-board">
+      <div id="title">
+        <div></div>
+        <span class = "title-word hidden" id="woorden">Woorden </span>
+        <span class = "title-word hidden" id="voor">Voor </span>
+        <span class = "title-word hidden" id="norah">Norah</span>
+      </div>
+      <div id="input-container">
+        <div id="input-field-wrapper">
+          <div class="" id="copy-wrapper">
+            <div id="copy"></div>
+          </div>
+          <input type="text" id="input-field" spellcheck="false">
+          <div id="click-here">Klik hier</div>
+          <div id="anti-select-overlay"></div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+
+
+      <filter id="squiggly-0">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018" numOctaves="2" result="noise" seed="3" />
+        <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="10" />
+      </filter>
+      <filter id="squiggly-1">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018 0.019" numOctaves="2" result="noise" seed="4" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" />
+      </filter>
+
+      <filter id="squiggly-2">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.015 0.017" numOctaves="2" result="noise" seed="5" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+      </filter>
+      <filter id="squiggly-3">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.019 0.013" numOctaves="2" result="noise" seed="6" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="11" />
+      </filter>
+
+      <filter id="squiggly-4">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018" numOctaves="2" result="noise" seed="7" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+      </filter>
+
+      <filter id="squiggly-5">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018 0.016" numOctaves="2" result="noise" seed="8" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" />
+      </filter>
+
+      <filter id="squiggly-6">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.017 0.018" numOctaves="2" result="noise" seed="9" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+      </filter>
+
+      <filter id="squiggly-7">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018 0.015" numOctaves="2" result="noise" seed="10" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" />
+      </filter>
+
+      <filter id="squiggly-8">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.019 0.018" numOctaves="2" result="noise" seed="11" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+      </filter>
+
+      <filter id="squiggly-9">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.018 0.017" numOctaves="2" result="noise" seed="12" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="11" />
+      </filter>
+
+      <filter id="squiggly-10">
+        <feTurbulence id="turbulence" type="fractalNoise" baseFrequency="0.016 0.018" numOctaves="2" result="noise" seed="13" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="11" />
+      </filter>
+
+    </defs>
+  </svg>
+
+</body>
+
+</html>
