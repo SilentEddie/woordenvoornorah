@@ -21,7 +21,7 @@ function talk(text) {
   utterThis.lang = 'nl-NL'
   if (voice) utterThis.voice = voice
   utterThis.rate = 0.9 
-  utterThis.pitch = 1.35
+  utterThis.pitch = 1.3
   synth.speak(utterThis)
 }
 
